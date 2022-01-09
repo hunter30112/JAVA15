@@ -17,13 +17,13 @@ class PrePaid extends Thread
 		int tmp=sum-n;
 		try
 		{
-		sleep((int)(1000*Math.random()));
+		sleep((int)(1000*Math.random())); //ç©ºè¿´åœˆ
 		}
 		catch(InterruptedException e){}
 		if(tmp>0)
 		{
 		sum=tmp;
-		System.out.println("³q¸Ü¶O"+n+"¤¸,¾lÃB¬°"+sum+"¤¸");
+		System.out.println("é€šè©±è²»"+n+"å…ƒ,é¤˜é¡ç‚º"+sum+"å…ƒ");
 		}
 	}
 }
